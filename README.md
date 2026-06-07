@@ -9,9 +9,7 @@ Este aplicativo é um marcador de pontos para jogos de Truco, desenvolvido como 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/main.png" width="250" title="Tela Principal">
-  <img src="screenshots/history_games.png" width="250" title="Histórico">
-  <img src="screenshots/info_names.png" width="250" title="Configurar Nomes">
+  <img src="screenshots/resume_screen.png" width="250" title="Tela Principal">
 </p>
 
 ---
