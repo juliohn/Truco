@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Truco</string>
+    <string name="_1">+ 1</string>
+    <string name="_3">+ 3</string>
+    <string name="_6">+ 6</string>
+    <string name="_9">+ 9</string>
+    <string name="_12">+ 12</string>
+    <string name="host_name">Jogador 1:</string>
+    <string name="host_points">0</string>
+    <string name="visitor_name">Jogador 2:</string>
+    <string name="visitor_points">0</string>
+</resources>
