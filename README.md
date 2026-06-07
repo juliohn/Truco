@@ -2,6 +2,8 @@
 <img width="1200" height="1600" alt="WhatsApp Image 2026-06-07 at 18 39 11 (2)" src="https://github.com/user-attachments/assets/1c6489aa-af0d-40f0-ba0b-f304e127b15b" />
 <img width="1200" height="1600" alt="WhatsApp Image 2026-06-07 at 18 39 10" src="https://github.com/user-attachments/assets/cef79cfd-37f5-4b3f-b9e9-7d2b820de684" />
 <img width="810" height="1600" alt="WhatsApp Image 2026-06-07 at 18 39 11" src="https://github.com/user-attachments/assets/0f85aa46-6b35-416f-bdbf-f4d8034ad4b4" />
+
+
 # Truco
 Pós-Mobile, projeto disciplina android basico
 
