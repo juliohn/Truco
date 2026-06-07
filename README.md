@@ -6,6 +6,16 @@ Este aplicativo é um marcador de pontos para jogos de Truco, desenvolvido como 
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/main_screen.png" width="250" title="Tela Principal">
+  <img src="screenshots/history_screen.png" width="250" title="Histórico">
+  <img src="screenshots/players_screen.png" width="250" title="Configurar Nomes">
+</p>
+
+---
+
 ## ✅ Requisitos Atendidos
 
 ### Questão 1: Interface Visual
