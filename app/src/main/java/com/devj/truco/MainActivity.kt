@@ -128,7 +128,7 @@ class MainActivity : ComponentActivity() {
         }
 
 
-    // - Button History - Pass values params from victories and names to other activity
+    // - Button History - Pass values params of victories and names to other activity
         binding.buttonHistory.setOnClickListener {
             val intent = Intent(this@MainActivity, HistoryActivity::class.java )
             intent.putExtra("etVisitorVictories", etVisitorVictories)
@@ -140,7 +140,7 @@ class MainActivity : ComponentActivity() {
 
     // - button Reset History
         binding.buttonResetHistory.setOnClickListener {
-            Toast.makeText(this, "O histórico de partidas foi reiniciado com sucesso", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.reset_success), Toast.LENGTH_LONG).show()
 
             resetVictories()
         }
@@ -186,10 +186,10 @@ class MainActivity : ComponentActivity() {
 
     private fun showWinnerAlert(winner: String, loser: String) {
         AlertDialog.Builder(this)
-            .setTitle("É ... nao deu $loser")
-            .setMessage("O $winner atingiu 12 pontos e venceu!")
+            .setTitle(getString(R.string.loser_message, loser))
+            .setMessage(getString(R.string.winner_message, winner))
             .setCancelable(false)
-            .setPositiveButton("Bora pra próxima") { dialog, which ->
+            .setPositiveButton(getString(R.string.next_game)) { dialog, which ->
                 resetPoints()
             }
             .create()
@@ -197,14 +197,18 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun resetPoints() {
-        binding.etPointsHost.setText("0")
-        binding.etPointsVisitor.setText("0")
+        binding.etPointsHost.setText(getString(R.string.double_zero))
+        binding.etPointsVisitor.setText(getString(R.string.double_zero))
     }
 
 
     private fun resetVictories(){
         etHostVictories = 0
         etVisitorVictories = 0
+        tvLabelHostName = ""
+        tvLabelVisitorName = ""
+        binding.tvLabelHostName.text = getString(R.string.default_player_1)
+        binding.tvLabelVisitorName.text = getString(R.string.default_player_2)
         resetPoints()
     }
 

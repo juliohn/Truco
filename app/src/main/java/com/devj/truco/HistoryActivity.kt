@@ -30,10 +30,10 @@ class HistoryActivity : ComponentActivity() {
 
         // Recebendo os nomes e setando nas labels com verificação de vazio
         val tvLabelHostName = intent.getStringExtra("tvLabelHostName")
-        binding.tvLabelHostName.text = if (tvLabelHostName.isNullOrBlank()) "Jogador 1" else tvLabelHostName
+        binding.tvLabelHostName.text = if (tvLabelHostName.isNullOrBlank()) getString(R.string.default_player_1) else tvLabelHostName
 
         val tvLabelVisitorName = intent.getStringExtra("tvLabelVisitorName")
-        binding.tvLabelVisitorName.text = if (tvLabelVisitorName.isNullOrBlank()) "Jogador 2" else tvLabelVisitorName
+        binding.tvLabelVisitorName.text = if (tvLabelVisitorName.isNullOrBlank()) getString(R.string.default_player_2) else tvLabelVisitorName
 
         binding.buttonBack.setOnClickListener {
             finish() // Apenas fecha a tela atual para voltar à anterior

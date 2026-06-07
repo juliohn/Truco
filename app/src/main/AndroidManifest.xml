@@ -14,7 +14,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.Truco">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,24 +24,14 @@
         <activity
             android:name=".HistoryActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="@string/games_history"
             android:theme="@style/Theme.Truco">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".PlayersActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="@string/manager_players"
             android:theme="@style/Theme.Truco">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

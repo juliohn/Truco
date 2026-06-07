@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Truco" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Truco" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Cor da barra de status (relógio/bateria) igual ao azul do header -->
+        <item name="android:statusBarColor">@color/truco_blue</item>
+        <!-- Ícones brancos para fundo escuro -->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="colorPrimary">@color/truco_blue</item>
+        <item name="colorPrimaryVariant">@color/truco_blue</item>
+        <item name="colorSecondary">@color/truco_orange</item>
+    </style>
+
 </resources>
